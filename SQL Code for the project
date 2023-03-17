@@ -1,4 +1,5 @@
 
+
 --Making an union of the three pages of the xlsx document
 
 with hotels as
@@ -13,3 +14,4 @@ select * from dbo.['2020$'])
 select*from hotels h
 left join dbo.market_segment$ m on m.market_segment=h.market_segment
 left join dbo.meal_cost$ mc on mc.meal=h.meal
+
